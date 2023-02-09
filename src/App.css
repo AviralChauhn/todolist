@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.inboxheading{
+  color: white;
+  text-decoration: underline;
+}
+.side-nav{
+  color: white;
+  border-right: solid 4px white;
+  height: 600px;
+  list-style: none;
+}
+.box{
+  color: white;
+}
+.signoutbtn{
+  margin-top: 0px;
+  height: 50px;
+  width: 100px;
+}
+.inboxbox{
+  border: solid 2px white;
+  margin-top: 75px;
+  padding-left: 200px;
+  margin-right: 350px;
+  margin-left: 350px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: linear-gradient(rgba(70, 70, 240, 0.603), rgba(42, 104, 84, 0.703));
+}
+.task{
+  border: solid 2px white;
+  margin-top: 75px;
+  padding-left: 200px;
+  margin-right: 350px;
+  margin-left: 350px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: linear-gradient(rgba(153, 153, 246, 0.603), rgba(84, 109, 101, 0.703));
+}
+.loginpage{
+  margin-left: 500px;
+  margin-right: 450px;
+  margin-top: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.737), rgba(0, 0, 0, 0.632));
+  padding-left: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.headinghome{
+  margin-left: 600px;
+  margin-top: 15px;
+  padding-left: 150px;
+  margin-right: 400px;
+  margin-left: 450px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 100px;
+  color: white;
+  margin-top: 200px;
+  text-decoration: underline;
+  background: linear-gradient(rgba(153, 153, 246, 0.326), rgba(84, 109, 101, 0.432));
+}
+.side-nav li{
+  border: 2px solid white;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+}
+.box button{
+  height: 25px;
+  width: 75px;
+  background-color: bisque;
+}
